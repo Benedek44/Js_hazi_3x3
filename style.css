@@ -1,0 +1,27 @@
+.grid-container 
+{
+    display: grid;
+    margin: auto;
+    width: 250px;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+.grid-item 
+{
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+h1
+{
+    text-align: center;
+}
+button
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    margin: auto;
+    font-weight: bold;
+}
